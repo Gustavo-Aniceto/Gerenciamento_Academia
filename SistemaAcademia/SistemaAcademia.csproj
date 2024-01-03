@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38FF0DF7-567E-42A5-A5A1-EF08CE533CA9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SistemaAcademia</RootNamespace>
+    <AssemblyName>SistemaAcademia</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexao.cs" />
+    <Compile Include="FormCadastroAlunosPesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroAlunosPesquisa.Designer.cs">
+      <DependentUpon>FormCadastroAlunosPesquisa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroUsuarios.Designer.cs">
+      <DependentUpon>FormCadastroUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormContaAReceber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormContaAReceber.Designer.cs">
+      <DependentUpon>FormContaAReceber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroAlunos.Designer.cs">
+      <DependentUpon>FormCadastroAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLancarContaReceber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLancarContaReceber.Designer.cs">
+      <DependentUpon>FormLancarContaReceber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProcuraAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProcuraAluno.Designer.cs">
+      <DependentUpon>FormProcuraAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRelatorioFinanceiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRelatorioFinanceiro.Designer.cs">
+      <DependentUpon>FormRelatorioFinanceiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTelaPrincipal.Designer.cs">
+      <DependentUpon>FormTelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCadastroAlunosPesquisa.resx">
+      <DependentUpon>FormCadastroAlunosPesquisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroUsuarios.resx">
+      <DependentUpon>FormCadastroUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormContaAReceber.resx">
+      <DependentUpon>FormContaAReceber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroAlunos.resx">
+      <DependentUpon>FormCadastroAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLancarContaReceber.resx">
+      <DependentUpon>FormLancarContaReceber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProcuraAluno.resx">
+      <DependentUpon>FormProcuraAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRelatorioFinanceiro.resx">
+      <DependentUpon>FormRelatorioFinanceiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTelaPrincipal.resx">
+      <DependentUpon>FormTelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_academia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administrator-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log-Out-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-dialog-cancel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pencil-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-file-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editing-Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graph.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

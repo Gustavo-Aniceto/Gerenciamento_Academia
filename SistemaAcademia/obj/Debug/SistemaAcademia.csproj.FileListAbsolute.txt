@@ -1,0 +1,32 @@
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\bin\Debug\SistemaAcademia.exe.config
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\bin\Debug\SistemaAcademia.exe
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\bin\Debug\SistemaAcademia.pdb
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.csprojResolveAssemblyReference.cache
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.Properties.Resources.resources
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.csproj.GenerateResource.cache
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.csproj.CoreCompileInputs.cache
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.exe
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.pdb
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormCadastroAlunos.resources
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormLogin.resources
+C:\Users\ant\Desktop\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormTelaPrincipal.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.csprojAssemblyReference.cache
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormCadastroAlunos.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormLogin.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormTelaPrincipal.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.Properties.Resources.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.csproj.GenerateResource.cache
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.csproj.CoreCompileInputs.cache
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.exe
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.pdb
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\bin\Debug\SistemaAcademia.exe.config
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\bin\Debug\SistemaAcademia.exe
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\bin\Debug\SistemaAcademia.pdb
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormCadastroUsuarios.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormContaAReceber.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormProcuraAluno.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormCadastroAlunosPesquisa.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormLancarContaReceber.resources
+C:\Users\Anton\Dropbox\inter 2018\SistemaAcademia\SistemaAcademia\obj\Debug\SistemaAcademia.FormRelatorioFinanceiro.resources
+C:\Users\guuha\Source\Repos\sistema_gerenciamento_academia\SistemaAcademia\obj\Debug\SistemaAcademia.exe
+C:\Users\guuha\Source\Repos\sistema_gerenciamento_academia\SistemaAcademia\obj\Debug\SistemaAcademia.pdb
